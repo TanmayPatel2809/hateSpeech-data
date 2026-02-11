@@ -4,7 +4,9 @@ from pydantic.dataclasses import dataclass
 
 @dataclass
 class Config:
-    helle: str = "world"
+    dvc_remote_name: str = "gcs-storage"
+    dvc_remote_url: str = "gs://my_bucket_2003/hate_speech_data/raw"
+
 
 
 def setup_config() -> None:

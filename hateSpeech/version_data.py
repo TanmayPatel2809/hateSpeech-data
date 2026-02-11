@@ -1,6 +1,6 @@
 from hateSpeech.config_schemas.config_schema import Config
 from hateSpeech.utils.config_utils import get_config
-from hateSpeech.utils.data_utils import initialize_dvc
+from hateSpeech.utils.data_utils import initialize_dvc, initialize_dvc_storage
 from hateSpeech.utils.utils import get_logger
 from pathlib import Path
 
@@ -8,6 +8,8 @@ from pathlib import Path
 @get_config(config_path="../configs", config_name="config")
 def version_data(config: Config) -> None:
     initialize_dvc()
+
+    initialize_dvc_storage(config.dvc_remote_name, config.dvc_remote_url)
 
 
 if __name__ == "__main__":
