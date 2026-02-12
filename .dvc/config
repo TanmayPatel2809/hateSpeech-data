@@ -1,6 +1,3 @@
 [core]
     analytics = false
     autostage = true
-    remote = gcs-storage
-['remote "gcs-storage"']
-    url = gs://my_bucket_2003/hate_speech_data/raw
