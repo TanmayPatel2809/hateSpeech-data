@@ -1,6 +1,6 @@
 from hateSpeech.config_schemas.config_schema import Config
 from hateSpeech.utils.config_utils import get_config
-from hateSpeech.utils.data_utils import initialize_dvc, initialize_dvc_storage, commit_to_dvc, make_new_data_version
+from hateSpeech.utils.data_utils import initialize_dvc, initialize_dvc_storage, make_new_data_version
 from hateSpeech.utils.utils import get_logger
 from pathlib import Path
 

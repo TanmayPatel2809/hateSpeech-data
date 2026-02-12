@@ -53,5 +53,4 @@ def make_new_data_version(dvc_raw_data_folder:str, dvc_remote_name:str) -> None:
             return
         commit_to_dvc(dvc_raw_data_folder, dvc_remote_name)
     except CalledProcessError as e:
-        DATA_UTILS_LOGGER.warning(f"dvc status check failed: {e}. Proceeding with commit.")
         commit_to_dvc(dvc_raw_data_folder, dvc_remote_name)
