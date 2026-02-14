@@ -1,8 +1,8 @@
 [tool.poetry]
-name = "emkademy"
+name = "tanmay"
 version = "0.1.0"
 description = ""
-authors = ["Kıvanç Yüksel <emkademy@gmail.com>"]
+authors = ["Tanmay Patel <tanmaykpatel03@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
@@ -37,7 +37,7 @@ ensure_newline_before_comments = true
 line_length = 120
 indent = 4
 lines_between_types = 1
-known_first_party = ["cybulde"]
+known_first_party = ["hateSpeech"]
 default_section = "THIRDPARTY"
 sections = ["FUTURE", "STDLIB", "THIRDPARTY", "FIRSTPARTY", "LOCALFOLDER"]
 
